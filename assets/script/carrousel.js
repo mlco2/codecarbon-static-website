@@ -64,6 +64,7 @@ class Carrousel {
             color: white;
             cursor: pointer;
             border: 1px solid white;
+            transform: translateY(-50%);
             " > < </span>
         <span class="carrousel_container_control" data-direction="right" 
         style="
@@ -76,6 +77,7 @@ class Carrousel {
             color: white;
             cursor: pointer;
             border: 1px solid white;
+            transform: translateY(-50%);
             "
             > > </span>
         `;
