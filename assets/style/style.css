@@ -362,6 +362,31 @@ body {
   color: #32c77f;
 }
 
+.clever {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10rem;
+  background-color: #014758;
+  color: white;
+}
+.clever_title {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin: 1rem 0 5rem 0;
+}
+.clever_title_link {
+  color: #32c77f;
+  text-decoration: none;
+}
+.clever_text {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 300;
+}
+
 .footer_p {
   font-size: 1.4rem;
   padding: 2rem;
