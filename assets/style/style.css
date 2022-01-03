@@ -250,7 +250,7 @@ h5 {
 .howitwork_dashboard_separator {
   background-color: #014758;
   height: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 .howitwork_dashboard_box {
   display: flex;
@@ -407,31 +407,46 @@ h5 {
 }
 
 @media screen and (max-width: 1280px) {
+  .header {
+    margin-bottom: 6rem;
+  }
+
   .about_track {
-    padding: 4rem;
+    padding: 6rem 4rem;
+  }
+  .about_track_h1 {
+    margin: 0rem 7.5rem 3rem 7.5rem;
   }
   .about_whatitis {
-    padding: 4rem;
+    padding: 6rem 4rem;
   }
   .about_carrousel {
-    padding: 4rem 4rem;
+    padding: 6rem 4rem 0;
   }
   .about_video {
-    padding: 4rem 4rem;
+    padding: 6rem 4rem;
   }
   .about_video_detail {
     width: 100%;
   }
+  .about_callingout {
+    width: 80%;
+  }
+  .about_callingout_title {
+    font-size: 3.5rem;
+    margin: 0 0 6rem 0;
+  }
 
   .howitwork_howto {
     margin: 0rem 4rem;
+    padding: 6rem 0;
   }
   .howitwork_dashboard {
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
   }
   .howitwork_dashboard_hgroup {
     width: 70%;
-    padding: 5rem 0;
+    padding: 6rem 0;
   }
   .howitwork_dashboard_hgroup_h2 {
     font-size: 2.4rem;
@@ -446,18 +461,35 @@ h5 {
   .howitwork_dashboard_box_img {
     max-width: 50rem;
   }
+  .howitwork_dashboard_separator {
+    margin-bottom: 3rem;
+  }
 
   .cta {
-    padding: 4rem;
+    padding: 6rem 4rem 0;
     overflow-x: hidden;
+  }
+  .cta_hgroup {
+    padding-bottom: 6rem;
+  }
+  .cta_box:last-child {
+    margin-bottom: 6rem;
   }
 
   .team_ul {
     grid-template-columns: 1fr 1fr;
-    padding: 4rem;
+    padding: 6rem 4rem;
   }
   .team_h2 {
-    width: 70%;
+    width: 90%;
+  }
+
+  .clever {
+    padding-bottom: 6rem;
+  }
+  .clever_title {
+    margin-top: 0;
+    margin-bottom: 3rem;
   }
 }
 @media screen and (max-width: 780px) {
@@ -465,30 +497,40 @@ h5 {
     font-size: 1.6rem;
   }
 
+  .header {
+    margin-bottom: 4rem;
+  }
   .header_nav_ul_li {
-    padding: 0.5rem;
+    padding: 0.7rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: center;
   }
 
   .about_track {
-    padding: 2rem;
+    padding: 4rem 2rem;
+  }
+  .about_track_h1 {
+    margin: 0 0 3rem 0;
   }
   .about_track_p {
     width: unset;
   }
   .about_whatitis {
-    padding: 2rem;
+    padding: 4rem 2rem;
   }
   .about_whatitis_ul {
     flex-direction: column;
+    margin: 0;
   }
   .about_whatitis_ul_li_img {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
   .about_carrousel {
-    padding: 2rem 2rem;
+    padding: 4rem 2rem;
   }
   .about_video {
-    padding: 2rem 2rem;
+    padding: 0rem 2rem;
   }
   .about_video_detail {
     width: 100%;
@@ -499,7 +541,7 @@ h5 {
   }
   .about_callingout_title {
     font-size: 2.4rem;
-    margin: 5rem 0;
+    margin: 4rem 0;
   }
   .about_callingout_container {
     flex-direction: column;
@@ -519,11 +561,11 @@ h5 {
   }
 
   .howitwork_howto {
-    margin: 0rem 2rem;
-    padding: 2rem 0;
+    margin: 0rem 0rem;
+    padding: 4rem 2rem;
   }
   .howitwork_howto_h2 {
-    padding: 4rem 0rem 4rem 0;
+    padding: 0rem 0rem 2rem 0;
     width: 50%;
     margin: auto;
   }
@@ -531,25 +573,31 @@ h5 {
     font-size: 1.8rem;
   }
   .howitwork_dashboard {
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
   }
   .howitwork_dashboard_hgroup {
-    width: 70%;
-    padding: 5rem 0;
+    width: 80%;
+    padding: 4rem 0;
   }
   .howitwork_dashboard_hgroup_h2 {
     padding-bottom: 2rem;
   }
   .howitwork_dashboard_box_img {
-    max-width: 30rem;
+    max-width: 20rem;
+  }
+  .howitwork_dashboard_separator {
+    margin-bottom: 2rem;
   }
 
   .cta {
-    padding: 2rem;
+    padding: 4rem 2rem;
     overflow-x: hidden;
   }
   .cta_box {
     flex-direction: column;
+  }
+  .cta_box:last-child {
+    margin-bottom: 4rem;
   }
   .cta_box_p {
     width: 90%;
@@ -583,5 +631,13 @@ h5 {
   }
   .team_ul_innerUl:nth-child(1) {
     grid-template-rows: 17rem 40rem 40rem;
+  }
+
+  .clever {
+    padding: 4rem 2rem;
+  }
+  .clever_title {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
   }
 }/*# sourceMappingURL=style.css.map */
