@@ -1,3 +1,5 @@
+const SLIDE_DURATION = 10000; // Change this const for setting the waiting time between slide change in millisecond
+
 class Carrousel {
     constructor(node) {
         this.node = node;
@@ -24,10 +26,14 @@ class Carrousel {
         };
         this.setIndex(2);
         this.setMedia();
-        this.interval = window.setInterval(() => {
+        this.setTimer();
+    }
+    setTimer() {
+        if (this.timer) clearInterval(this.timer);
+        this.timer = this.interval = window.setInterval(() => {
             this.setIndex(1);
             this.setMedia();
-        }, 10000);
+        }, SLIDE_DURATION);
     }
     setMedia() {
         for (let i = 0; i < this.media.length; ++i) {
@@ -39,6 +45,7 @@ class Carrousel {
         if (e.target.dataset.direction === 'left') this.setIndex(-1);
         else this.setIndex(1);
         this.setMedia();
+        this.setTimer();
     }
     setIndex(val) {
         this.index.current += val >= 0 ? 1 : -1;
@@ -53,33 +60,48 @@ class Carrousel {
         let $car = document.createElement('div');
         $car.className = 'carrousel_container';
         $car.innerHTML = `
-        <span class="carrousel_container_control" data-direction="left" 
+        <div class="carrousel_container_control" style=
+        "
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        transform: translationX(-50%);
+        "> <span data-direction="left" 
         style="
-            position: absolute;
-            top: 50%;
-            left: 0;
             font-size: 3rem;
             background-color: #707070;
             padding: 1rem;
             color: white;
             cursor: pointer;
             border: 1px solid white;
-            transform: translateY(-50%);
+            width: 4rem;
+            height: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:0rem;
             " > < </span>
         <span class="carrousel_container_control" data-direction="right" 
         style="
-            position: absolute;
-            top: 50%;
-            right: 0;
+
             font-size: 3rem;
             background-color: #707070;
             padding: 1rem;
             color: white;
             cursor: pointer;
             border: 1px solid white;
-            transform: translateY(-50%);
+            width: 4rem;
+            height: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:0rem;
+
             "
             > > </span>
+            </div>
         `;
         $car.style.position = 'relative';
         $car.style.display = 'flex';
@@ -89,9 +111,3 @@ class Carrousel {
 }
 
 export default Carrousel;
-
-/*
-
-
-
-*/
