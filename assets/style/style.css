@@ -224,6 +224,14 @@ h5 {
   padding: 5px;
   border-radius: 50%;
 }
+.howitwork_howto_ul_li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24rem;
+  height: 100%;
+  text-decoration: none;
+}
 .howitwork_dashboard {
   background-color: white;
   padding-bottom: 10rem;

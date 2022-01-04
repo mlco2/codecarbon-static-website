@@ -218,6 +218,14 @@ h5 {
                     padding: 5px;
                     border-radius: 50%;
                 }
+                & a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 24rem;
+                    height: 100%;
+                    text-decoration: none;
+                }
             }
         }
     }
