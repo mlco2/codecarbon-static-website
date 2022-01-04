@@ -24,7 +24,7 @@ class Carrousel {
             next: 0,
             previous: 0,
         };
-        this.setIndex(2);
+        this.setIndex(1);
         this.setMedia();
         this.setTimer();
     }
@@ -43,9 +43,10 @@ class Carrousel {
     }
     handleClick(e) {
         if (e.target.dataset.direction === 'left') this.setIndex(-1);
-        else this.setIndex(1);
+        else if (e.target.dataset.direction === 'right') this.setIndex(1);
         this.setMedia();
         this.setTimer();
+        console.log(this.index.current);
     }
     setIndex(val) {
         this.index.current += val >= 0 ? 1 : -1;
@@ -83,7 +84,7 @@ class Carrousel {
             align-items: center;
             margin:0rem;
             " > < </span>
-        <span class="carrousel_container_control" data-direction="right" 
+        <span  data-direction="right" 
         style="
 
             font-size: 3rem;
