@@ -46,7 +46,6 @@ class Carrousel {
         else if (e.target.dataset.direction === 'right') this.setIndex(1);
         this.setMedia();
         this.setTimer();
-        console.log(this.index.current);
     }
     setIndex(val) {
         this.index.current += val >= 0 ? 1 : -1;
