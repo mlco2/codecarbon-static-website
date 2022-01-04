@@ -197,6 +197,26 @@ h5 {
                 height: 100%;
                 &_img {
                     width: 9rem;
+                    &.hovered {
+                        display: none;
+                        opacity: 0;
+                    }
+                    &.not-hovered {
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+                &:hover {
+                    .howitwork_howto_ul_li_img {
+                        &.hovered {
+                            display: block;
+                            opacity: 1;
+                        }
+                        &.not-hovered {
+                            display: none;
+                            opacity: 0;
+                        }
+                    }
                 }
                 &:nth-child(1),
                 &:nth-child(2) {
