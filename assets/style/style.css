@@ -26,13 +26,15 @@ h5 {
   position: sticky;
   z-index: 10;
   top: 0;
-  background-color: rgba(1, 117, 53, 0.8);
   display: flex;
   justify-content: space-between;
   margin-bottom: 10rem;
+  transition: background-color 250ms;
 }
 .header_logo {
-  width: 15rem;
+  max-width: 15rem;
+  max-height: 15rem;
+  width: 100%;
   min-width: 6rem;
 }
 .header_nav_ul {
@@ -41,12 +43,60 @@ h5 {
   justify-content: space-between;
 }
 .header_nav_ul_li {
-  padding: 1rem 1rem;
+  padding: 2.5rem 1rem;
 }
 .header_nav_ul_li a {
   color: white;
   text-decoration: none;
   font-weight: 500;
+}
+.header_nav_ul_li_signup {
+  background-color: #23527c;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.header_nav_ul_li_signup:hover {
+  background-color: #c9fb36;
+  color: #707070;
+}
+.header[data-is-sticky=false] {
+  background-color: rgba(1, 117, 53, 0.98);
+  transition: background-color 250ms;
+}
+.header[data-is-sticky=false] .header_logo_big {
+  display: block;
+}
+.header[data-is-sticky=false] .header_logo_little {
+  display: none;
+}
+.header[data-is-sticky=true] {
+  transition: background-color 250ms;
+  background-color: rgba(255, 255, 255, 0.98);
+  color: #707070;
+}
+.header[data-is-sticky=true] .header_logo_big {
+  display: none;
+}
+.header[data-is-sticky=true] .header_logo_little {
+  display: block;
+  max-width: 10rem;
+  max-height: 10rem;
+}
+.header[data-is-sticky=true] .header_nav_ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.header[data-is-sticky=true] .header_nav_ul_li a {
+  color: #707070;
+  text-decoration: none;
+  font-weight: 500;
+}
+.header[data-is-sticky=true] .header_nav_ul_li_signup {
+  color: white !important;
+}
+.header[data-is-sticky=true] .header_nav_ul_li_signup:hover {
+  color: #707070 !important;
 }
 
 .about {
