@@ -16,7 +16,6 @@ class Burger_menu {
             tmp.classList.toggle('header_nav_ul_li');
             this.$div.appendChild(tmp);
         }
-        console.log(this.$div);
         this.$div.addEventListener('click', this.closeMenu.bind(this));
         this.$frag.appendChild(this.$div);
     }
@@ -25,7 +24,6 @@ class Burger_menu {
         else this.$div.dataset.isVisible = false;
     }
     closeMenu({ target }) {
-        console.log('close');
         this.$div.dataset.isVisible = false;
         this.$check.checked = false;
     }
