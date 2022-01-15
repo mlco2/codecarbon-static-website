@@ -1,4 +1,5 @@
 html {
+    --MAX-WIDTH: 1280px;
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 }
@@ -21,10 +22,14 @@ h5 {
     position: sticky;
     z-index: 10;
     top: 0;
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 10rem;
     transition: background-color 250ms;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        max-width: var(--MAX-WIDTH);
+        margin: auto;
+    }
     &_logo {
         max-width: 15rem;
         max-height: 15rem;
