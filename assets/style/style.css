@@ -512,7 +512,8 @@ h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 90%;
+  max-width: var(--MAX-WIDTH);
+  width: 90%;
   margin: auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;

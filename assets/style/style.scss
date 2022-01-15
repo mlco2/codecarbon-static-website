@@ -367,7 +367,8 @@ h5 {
         }
         &_box {
             display: flex;
-            max-width: 90%;
+            max-width: var(--MAX-WIDTH) ;
+            width: 90%;
             margin: auto;
             justify-content: space-between;
             align-items: center;
