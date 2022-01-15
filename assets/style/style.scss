@@ -264,6 +264,8 @@ h5 {
     &_howto {
         margin: 0rem 10rem;
         padding: 10rem 0;
+        max-width: var(--MAX-WIDTH);
+        margin: auto;
         &_h2 {
             font-size: 3.5rem;
             padding: 0rem 0rem 5rem 0;

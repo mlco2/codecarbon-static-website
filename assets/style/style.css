@@ -374,6 +374,8 @@ h5 {
 .howitwork_howto {
   margin: 0rem 10rem;
   padding: 10rem 0;
+  max-width: var(--MAX-WIDTH);
+  margin: auto;
 }
 
 .howitwork_howto_h2 {
