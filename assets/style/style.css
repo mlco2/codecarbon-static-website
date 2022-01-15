@@ -282,12 +282,17 @@ h5 {
 }
 
 .about_video_detail {
-  width: 80%;
+  width: 100%;
 }
 
 .about_callingout {
   color: white;
   width: 60%;
+  margin: auto;
+}
+
+.about_callingout .container {
+  max-width: var(--MAX-WIDTH);
   margin: auto;
 }
 

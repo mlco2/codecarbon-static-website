@@ -197,13 +197,18 @@ h5 {
         align-items: center;
         padding: 5rem 10rem;
         &_detail {
-            width: 80%;
+            width: 100%;
         }
     }
     &_callingout {
         color: white;
         width: 60%;
         margin: auto;
+        .container{
+            max-width: var(--MAX-WIDTH);
+            margin: auto;
+
+        }
         &_title {
             font-size: 3.5rem;
             margin: 5rem 0;
