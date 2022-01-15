@@ -169,6 +169,8 @@ h5 {
       -ms-flex-align: start;
           align-items: flex-start;
   color: white;
+  max-width: var(--MAX-WIDTH);
+  margin: auto;
 }
 
 .about_track_h1 {
@@ -188,6 +190,11 @@ h5 {
 .about_whatitis {
   background-color: white;
   padding: 10rem;
+}
+
+.about_whatitis .container {
+  max-width: var(--MAX-WIDTH);
+  margin: auto;
 }
 
 .about_whatitis_h2 {
@@ -251,6 +258,8 @@ h5 {
       -ms-flex-align: center;
           align-items: center;
   padding: 10rem 10rem 5rem;
+  max-width: var(--MAX-WIDTH);
+  margin: auto;
 }
 
 .about_carrousel_img {
@@ -258,6 +267,8 @@ h5 {
 }
 
 .about_video {
+  max-width: var(--MAX-WIDTH);
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -126,6 +126,8 @@ h5 {
         justify-content: center;
         align-items: flex-start;
         color: white;
+        max-width: var(--MAX-WIDTH);
+        margin: auto;
         &_h1 {
             margin: 0rem 7.5rem 6rem 7.5rem;
             font-size: 3.5rem;
@@ -141,6 +143,10 @@ h5 {
     &_whatitis {
         background-color: white;
         padding: 10rem;
+        .container{
+            max-width: var(--MAX-WIDTH);
+            margin: auto;
+        }
         &_h2 {
             position: relative;
             left: 25%;
@@ -177,11 +183,15 @@ h5 {
         justify-content: center;
         align-items: center;
         padding: 10rem 10rem 5rem;
+        max-width: var(--MAX-WIDTH);
+        margin: auto;
         &_img {
             max-width: 100%;
         }
     }
     &_video {
+        max-width: var(--MAX-WIDTH);
+        margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
