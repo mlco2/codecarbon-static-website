@@ -637,6 +637,8 @@ h5 {
 
 .actual_contrib {
   padding: 10rem 0;
+  max-width: var(--MAX-WIDTH);
+  margin: auto;
 }
 
 .actual_contrib h2 {

@@ -445,6 +445,8 @@ h5 {
 }
 .actual_contrib{
     padding: 10rem 0;
+    max-width: var(--MAX-WIDTH);
+    margin: auto;
     h2{
         text-align: center;
         margin: 5rem 0;
