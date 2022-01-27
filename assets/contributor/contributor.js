@@ -32,7 +32,7 @@ export const data = [
         img_path: "./assets/contributor/img/Marion_Coutarel-Huez.jpg"
     },
     {
-        name: "khalil chaouali",
+        name: "Khalil Chaouali",
         job : "Data scientist",
         Organisation: "Vneuron",
         img_path: "./assets/contributor/img/khalil_chaouali.jpg"
