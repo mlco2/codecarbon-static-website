@@ -635,6 +635,42 @@ h5 {
   right: unset;
 }
 
+.actual_contrib {
+  padding: 10rem 0;
+}
+
+.actual_contrib h2 {
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.actual_contrib ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  list-style: none;
+}
+
+.actual_contrib li {
+  width: 15rem;
+  margin: 1rem;
+}
+
+.actual_contrib li img {
+  width: 15rem;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .team {
   background-color: #014758;
   color: white;

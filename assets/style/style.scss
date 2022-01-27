@@ -443,6 +443,29 @@ h5 {
         }
     }
 }
+.actual_contrib{
+    padding: 10rem 0;
+    h2{
+        text-align: center;
+        margin: 5rem 0;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        list-style: none;
+    }
+    li{
+        width: 15rem;
+        margin: 1rem;
+        img{
+            width: 15rem;
+            height: 15rem;
+            object-fit: cover;
+        }
+    }
+}
 .team {
     background-color: rgb(1, 71, 88);
     color: white;
