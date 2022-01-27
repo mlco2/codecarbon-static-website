@@ -27,7 +27,7 @@ export const data = [
     },
     {
         name: "Marion Coutarel-Huez",
-        job : "data analyst",
+        job : "Data analyst",
         Organisation: "AO-Conseil",
         img_path: "./assets/contributor/img/Marion_Coutarel-Huez.jpg"
     },
