@@ -449,7 +449,9 @@ h5 {
     margin: auto;
     h2{
         text-align: center;
-        margin: 5rem 0;
+        margin: 0 0 5rem 0;
+        font-weight: bold;
+        font-size: 3.5rem;
     }
     ul{
         display: flex;
@@ -457,14 +459,18 @@ h5 {
         justify-content: center;
         align-items: baseline;
         list-style: none;
-    }
-    li{
-        width: 15rem;
-        margin: 1rem;
-        img{
-            width: 15rem;
-            height: 15rem;
-            object-fit: cover;
+        & li{
+            width: 20rem;
+            margin: 1rem;
+            & img{
+                width: 20rem;
+                height: 20rem;
+                object-fit: cover;
+                filter: grayscale(100%)
+            }
+        }
+        & p{
+            font-weight: lighter;
         }
     }
 }
@@ -475,6 +481,7 @@ h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 10rem;
     &_h2 {
         font-size: 3.5rem;
         font-weight: bolder;

@@ -643,7 +643,9 @@ h5 {
 
 .actual_contrib h2 {
   text-align: center;
-  margin: 5rem 0;
+  margin: 0 0 5rem 0;
+  font-weight: bold;
+  font-size: 3.5rem;
 }
 
 .actual_contrib ul {
@@ -661,16 +663,22 @@ h5 {
   list-style: none;
 }
 
-.actual_contrib li {
-  width: 15rem;
+.actual_contrib ul li {
+  width: 20rem;
   margin: 1rem;
 }
 
-.actual_contrib li img {
-  width: 15rem;
-  height: 15rem;
+.actual_contrib ul li img {
+  width: 20rem;
+  height: 20rem;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.actual_contrib ul p {
+  font-weight: lighter;
 }
 
 .team {
@@ -689,6 +697,7 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 10rem;
 }
 
 .team_h2 {
