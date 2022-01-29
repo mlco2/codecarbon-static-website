@@ -39,7 +39,7 @@ export const data = [
     },
     {
         name: "Jérémy Lecourt",
-        job : "Lead Data Scientist",
+        job : "Data Scientist",
         Organisation: "",
         img_path: "./assets/contributor/img/Jeremy_Lecourt.jpg"
     },
