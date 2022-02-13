@@ -2,6 +2,12 @@
 
 Static website for CodeCarbon.io
 
+## Test on your computer
+
+You need a local webserver, one simple way is : 
+
+`python3 -m http.server`
+
 ## Deploy to Clever Cloud
 
 ```
