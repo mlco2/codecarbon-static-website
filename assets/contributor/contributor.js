@@ -27,13 +27,13 @@ export const data = [
     },
     {
         name: "Marion Coutarel-Huez",
-        job : "Data analyst",
+        job : "Data Analyst",
         Organisation: "AO-Conseil",
         img_path: "./assets/contributor/img/Marion_Coutarel-Huez.jpg"
     },
     {
         name: "Khalil Chaouali",
-        job : "Data scientist",
+        job : "Data Scientist",
         Organisation: "Vneuron",
         img_path: "./assets/contributor/img/khalil_chaouali.jpg"
     },
@@ -51,9 +51,9 @@ export const data = [
     },
     {
         name: "Amine Saboni",
-        job : "Ingénieur Deep Learning",
+        job : "Deep Learning Engineer",
         Organisation: "Buster.AI",
-        img_path: "./assets/contributor/img/Amine_Saboni.png"
+        img_path: "./assets/contributor/img/Amine_Saboni.jpg"
     },
 
 ]
