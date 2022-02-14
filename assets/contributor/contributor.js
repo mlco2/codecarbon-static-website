@@ -55,5 +55,11 @@ export const data = [
         Organisation: "Buster.AI",
         img_path: "./assets/contributor/img/Amine_Saboni.jpg"
     },
+    {
+        name: "Camille Keisser",
+        job : "Data Scientist",
+        Organisation: "Artefact",
+        img_path: "./assets/contributor/img/Camille_KEISSER.jpg"
+    },
 
 ]
