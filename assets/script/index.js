@@ -1,5 +1,7 @@
 import Carrousel from './carrousel.js';
 import Burger_menu from './burger_menu.js';
+import Contributor_card from './contributor_card.js';
+import { data } from "../contributor/contributor.js"
 
 new Carrousel(document.querySelector('.carrousel'));
 
@@ -21,3 +23,13 @@ observer.observe($isSticky);
 
 let $navBurger = document.querySelector('.header_nav');
 new Burger_menu($navBurger);
+
+
+// Actual contributor list
+
+let $ulDiv = document.querySelector(".actual_contrib_ul")
+let content = ""
+data.forEach(el => {
+    content += Contributor_card(el)
+})
+$ulDiv.innerHTML = content;

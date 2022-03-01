@@ -106,6 +106,7 @@ class Carrousel {
         $car.style.position = 'relative';
         $car.style.display = 'flex';
         $car.style.justifyContent = 'center';
+        $car.style.flexDirection="row";
         return $car;
     }
 }
