@@ -639,6 +639,9 @@ h5 {
   padding: 10rem 0;
   max-width: var(--MAX-WIDTH);
   margin: auto;
+}
+
+.actual_contrib .team_p {
   text-align: center;
 }
 
@@ -662,6 +665,10 @@ h5 {
       -ms-flex-align: baseline;
           align-items: baseline;
   list-style: none;
+}
+
+.actual_contrib ul_p {
+  text-align: center;
 }
 
 .actual_contrib ul li {

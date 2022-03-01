@@ -446,7 +446,9 @@ h5 {
   padding: 10rem 0;
   max-width: var(--MAX-WIDTH);
   margin: auto;
-  text-align: center;
+  & .team_p {
+    text-align: center;
+  }
   h2 {
     text-align: center;
     margin: 0 0 5rem 0;
@@ -459,6 +461,9 @@ h5 {
     justify-content: center;
     align-items: baseline;
     list-style: none;
+    &_p {
+      text-align: center;
+    }
     & li {
       width: 20rem;
       margin: 1rem;
