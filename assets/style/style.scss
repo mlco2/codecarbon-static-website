@@ -493,20 +493,20 @@ h5 {
   }
   &_ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 20rem 20rem 20rem 20rem;
     list-style: none;
     gap: 3rem;
     padding: 10rem;
     place-items: center;
     & img {
       width: 100%;
-      max-width: 32rem;
+      max-width: 20rem;
     }
     &_innerUl {
       list-style: none;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 17rem 40rem 40rem 40rem;
+      grid-template-rows: 10rem 28rem 28rem 28rem;
       & h3 {
         font-weight: bold;
       }
@@ -710,16 +710,6 @@ h5 {
   }
   .header {
     margin-bottom: 4rem;
-    &_nav {
-      &_ul {
-        &_li {
-          //  padding: 0.7rem;
-          //  font-size: 1.4rem;
-          // font-weight: 300;
-          // text-align: center;
-        }
-      }
-    }
   }
   .about {
     &_track {
@@ -846,25 +836,37 @@ h5 {
   }
   .team {
     &_h2 {
-      width: 80%;
+      width: 90%;
     }
     &_p {
       padding: 2rem;
     }
     &_ul {
-      grid-template-columns: 1fr;
       padding: 2rem;
-
-      &_innerUl:nth-child(1) {
-        grid-template-rows: 17rem 40rem 40rem;
-      }
     }
   }
   .clever {
     padding: 4rem 2rem;
+    text-align: center;
     &_title {
       margin-top: 0;
       margin-bottom: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team {
+    &_ul {
+      grid-template-columns: 1fr;
+      padding: 6rem 4rem;
+      &_innerUl {
+        grid-template-rows: auto;
+        gap: 1rem;
+      }
+    }
+    &_h2 {
+      width: 100%;
     }
   }
 }
