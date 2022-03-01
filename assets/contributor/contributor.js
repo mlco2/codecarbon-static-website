@@ -61,5 +61,11 @@ export const data = [
         Organisation: "Artefact",
         img_path: "./assets/contributor/img/Camille_KEISSER.jpg"
     },
+    {
+        name: "Mathilde Léval",
+        job : "Data Scientist",
+        Organisation: "",
+        img_path: "./assets/contributor/img/Mathilde_Leval.jpg"
+    },
 
 ]
