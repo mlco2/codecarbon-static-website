@@ -8,12 +8,9 @@ You need a local webserver, one simple way is :
 
 `python3 -m http.server`
 
-## Deploy to Clever Cloud
+## Deploy
 
-```
-git remote add clever git+ssh://git@push-n2-par-clevercloud-customers.services.clever-cloud.com/app_<SECRET_STRING>.git
-git push -u clever main:master
-```
+The deployment is made by Github workflow automatically on merging to main branch.
 
 ## Adding a contributor to the actual list
 
