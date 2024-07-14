@@ -14,21 +14,21 @@ Copy/paste the example, and replace with your own information.
 
 export const data = [
     {
-        name: "Victor Schmidt",
-        job : "PhD Candidate",
-        Organisation: "Mila, Université de Montréal",
-        img_path: "./assets/contributor/img/victor.jpeg"
+        name: "Benoît Courty",
+        job : "Data Scientist",
+        Organisation: "",
+        img_path: "./assets/contributor/img/Benoit_Courty.jpg"
     },
     {
-        name: "Thomas Bouvier",
-        job : "Data Engineer",
+        name: "Amine Saboni",
+        job : "Deep Learning Engineer",
         Organisation: "",
-        img_path: "./assets/contributor/img/Thomas_bouvier.jpg"
+        img_path: "./assets/contributor/img/Amine_Saboni.jpg"
     },
     {
         name: "Marion Coutarel-Huez",
         job : "Data Analyst",
-        Organisation: "AO-Conseil",
+        Organisation: "Article 1",
         img_path: "./assets/contributor/img/Marion_Coutarel-Huez.jpg"
     },
     {
@@ -43,18 +43,7 @@ export const data = [
         Organisation: "",
         img_path: "./assets/contributor/img/Jeremy_Lecourt.jpg"
     },
-    {
-        name: "Benoît Courty",
-        job : "Data Scientist",
-        Organisation: "",
-        img_path: "./assets/contributor/img/Benoit_Courty.jpg"
-    },
-    {
-        name: "Amine Saboni",
-        job : "Deep Learning Engineer",
-        Organisation: "Buster.AI",
-        img_path: "./assets/contributor/img/Amine_Saboni.jpg"
-    },
+
     {
         name: "Camille Keisser",
         job : "Data Scientist",
@@ -66,6 +55,12 @@ export const data = [
         job : "Data Scientist",
         Organisation: "",
         img_path: "./assets/contributor/img/Mathilde_Leval.jpg"
+    },
+    {
+        name: "Thomas Bouvier",
+        job : "Data Engineer",
+        Organisation: "",
+        img_path: "./assets/contributor/img/Thomas_bouvier.jpg"
     },
 
 ]
