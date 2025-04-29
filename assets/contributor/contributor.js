@@ -26,6 +26,12 @@ export const data = [
         img_path: "./assets/contributor/img/Amine_Saboni.jpg"
     },
     {
+        name: "Sasha Luccioni",
+        job : "Researcher",
+        Organisation: "Hugging Face",
+        img_path: "./assets/img/sascha.jpg"
+    },
+    {
         name: "Iñigo Imaz",
         job : "Software Developer",
         Organisation: "",
