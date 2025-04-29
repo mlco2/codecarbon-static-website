@@ -181,6 +181,8 @@
                                 </p>
                             </li>
                         </ul>
+                        <p class="about_opensource_emphasis">
+                            CodeCarbon is a fully open-source project, free for everyone to use, including access to our API, thanks to <a href="https://www.clever-cloud.com/">Clever Cloud</a>. We rely on the community's responsible usage to maintain this service.                      </p>
                     </div>
                 </div>
                 <div class="about_carrousel carrousel">
@@ -315,7 +317,7 @@
                                 />
 
                                 <p class="howitwork_howto_ul_li_p">
-                                    Read the documentation
+                                    Read the technical documentation
                                 </p>
                                 <span class="howitwork_howto_ul_li_a">➜</span>
                             </a>
@@ -344,15 +346,28 @@
                             </p>
                         </li>
                         <li class="howitwork_howto_ul_li">
-                            <img
-                                class="howitwork_howto_ul_li_img"
-                                src="./assets/img/hiw_covers_V4-05.svg"
-                                alt=""
-                            />
+                            <a
+                                href="https://dashboard.codecarbon.io/"
+                                target="_blank"
+                                rel="noopener"
+                            >
+                                <img
+                                    class="howitwork_howto_ul_li_img not-hovered"
+                                    src="./assets/img/hiw_covers_V4-05.svg"
+                                    alt=""
+                                />
+                                <img
+                                    class="howitwork_howto_ul_li_img hovered"
+                                    src="./assets/img/hiw_covers_V4-05-white.svg"
+                                    alt=""
+                                />
                             <p class="howitwork_howto_ul_li_p">
                                 Visualize the output in clear dashboards
                             </p>
+                            <span class="howitwork_howto_ul_li_a">➜</span>
+                            </a>
                         </li>
+
                     </ul>
                 </div>
                 <div class="howitwork_dashboard">
@@ -448,19 +463,31 @@
                 </div>
             </section>
             <section class="actual_contrib ">
-                <h2>CodeCarbon is maintained by these contributor</h2>
+                <h2>Current Maintainers</h2>
                 <p class="team_p">
-                    Here is the team that built CodeCarbon. Join us and help
+                    Here is the team that maintains CodeCarbon. Join us and help
                     improve CodeCarbon !
                 </p>
                 <ul class="actual_contrib_ul"></ul>
-                <img src="./assets/img/logo-dfg-new2.png"/>
+                <!-- Contributor cards will be loaded here by contributor.js -->
+                 <p class="github_contributors_link">
+                    See the full list of contributors on <a href="https://github.com/mlco2/codecarbon/graphs/contributors" target="_blank" rel="noopener">GitHub</a>.
+                </p>
+                <!-- Removed DataForGood logo from here, will add to supporters section -->
+            </section>
+            <section class="former_contrib" id="former_contributors">
+                 <h2>Former Contributors</h2>
+                 <p>We thank these individuals for their past contributions to CodeCarbon.</p>
+                 <!-- Add former contributor details here manually or via another script -->
+                 <ul class="former_contrib_ul">
+                    <li>Placeholder for former contributors</li>
+                 </ul>
             </section>
             <section class="team" id="team">
                 <h2 class="team_h2">
-                    CodeCarbon was developed by four partner organizations and
-                    is made freely available to the community.
+                    Founding Partners & Team
                 </h2>
+                <p>CodeCarbon was originally developed by individuals from four partner organizations and is made freely available to the community.</p>
 
                 <ul class="team_ul">
                     <li>
@@ -574,21 +601,29 @@
                     </li>
                 </ul>
             </section>
-            <section class="clever">
-                <h2 class="clever_title">
-                    Powered by
-                    <a
-                        class="clever_title_link"
-                        href="https://www.clever-cloud.com/"
-                        rel="noopener"
-                    >
-                        CLEVER CLOUD
-                    </a>
-                </h2>
-                <p class="clever_text">
-                    Clever Cloud is an IT Automation platform. They manage all
-                    the ops work while you focus on your business value.<br/>
-                    Clever Cloud is supporting the project by providing us free hosting for the Code Carbon API.
+            <section class="supporters">
+                 <h2 class="supporters_title">Supported By</h2>
+                 <div class="supporters_logos">
+                     <a href="https://www.clever-cloud.com/" rel="noopener" target="_blank" title="Clever Cloud">
+                         <img src="https://www.clever-cloud.com/app/themes/Starter/assets/img/brand-assets/logo_on_white.png" alt="Clever Cloud Logo" class="supporter_logo" width="128" />
+                         <!-- Assuming this is the Clever Cloud logo based on the old section -->
+                     </a>
+                     <a href="https://foundation.mozilla.org/" rel="noopener" target="_blank" title="Mozilla Foundation">
+                         <img src="https://assets.mofoprod.net/static/_images/mozilla-on-black.9aed40133293.svg" alt="Mozilla Foundation Logo" class="supporter_logo" width="128"/>
+                         <!-- Replace PLACEHOLDER_MOZILLA_LOGO.png with the actual logo path -->
+                     </a>
+                     <a href="https://dataforgood.fr/" rel="noopener" target="_blank" title="DataForGood">
+                         <img src="./assets/img/logo-dfg-new2.png" alt="DataForGood Logo" class="supporter_logo" width="64"/>
+                     </a>
+                 </div>
+                 <p class="supporters_text">
+                     We thank Clever Cloud for providing free hosting for the CodeCarbon API, and Mozilla and DataForGood for their support.
+                 </p>
+            </section>
+            <section class="non_profit_status">
+                <h2 class="non_profit_status_title">Our Organization</h2>
+                <p class="non_profit_status_text">
+                    Since 2024, CodeCarbon operates as a French non-profit organization (Association loi 1901) dedicated to promoting awareness and reduction of computing's environmental impact.
                 </p>
             </section>
         </main>
