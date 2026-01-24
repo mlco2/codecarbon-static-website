@@ -1,6 +1,8 @@
-# codecarbon-static-website
+# OLD codecarbon-static-website
 
-Static website for CodeCarbon.io
+Previous static website for CodeCarbon.io
+
+The new website is on https://github.com/mlco2/codecarbon-landing-page
 
 ## Test on your computer
 
@@ -19,3 +21,4 @@ Deploy is done by GitHub to https://codecarbon.io when merged to master.
 - Once you have a pic correctly set, add it with the name of the contributor in the /assets/contributor/img folder.
 - Add your entries in the contributor.js file. It's an array of object.
 - Copy/paste the exemple at the end ( before the ']'). Take care to add a coma between object.
+
