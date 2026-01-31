@@ -439,7 +439,7 @@ h5 {
   opacity: 0;
 }
 
-.howitwork_howto_ul_li:nth-child(1) p, .howitwork_howto_ul_li:nth-child(2) p {
+.howitwork_howto_ul_li:nth-child(1) p, .howitwork_howto_ul_li:nth-child(2) p , .howitwork_howto_ul_li:nth-child(5) p {
   color: #c9fb36;
 }
 
